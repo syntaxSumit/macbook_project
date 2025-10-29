@@ -8,9 +8,7 @@ const Navbar = () => {
         <img src="/logo.svg" alt="Apple logo" className="ml-10" />
         <ul className="font-bold">
           {navLinks.map(({ label }) => (
-            <li key={label}>
-              <a href='https://www.apple.com/in/store'>{label}</a>
-            </li>
+            <li key={label}>{label}</li>
           ))}
         </ul>
         <div className="flex-center gap-3">
