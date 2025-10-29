@@ -17,11 +17,8 @@ const ProductViewer = () => {
       <h2>Take a closer Look.</h2>
 
       <div className="controls">
-        <p className="info">
-          {" "}
-          
-        </p>
-        <div className="flex-center gap-5 mt-5">
+        <p className="info"> </p>
+        <div className="flex-center gap-5 mt-20">
           <div className="color-control">
             <div
               onClick={() => setColor("#dde0df")}
