@@ -10,13 +10,15 @@ const Hero = () => {
     <section id="hero">
       <div>
         <h1>MacBook Pro</h1>
-        <img src="/title.png" alt=" MacBook Title " />
+        <a href="/">
+          <img src="/title.png" alt=" MacBook Title " />
+        </a>
       </div>
 
       <div>
         <video src="/videos/hero.mp4" autoPlay muted playsInline />
-      <button>buy</button>
-      <p>From $1599 or $1 for life time </p>
+        <button>buy</button>
+        <p>From $1599 or $1 for life time </p>
       </div>
     </section>
   );

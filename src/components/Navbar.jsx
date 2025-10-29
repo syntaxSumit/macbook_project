@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
     <header>
       <nav>
-        <img src="/logo.svg" alt="Apple logo" />
-        <ul>
+        <img src="/logo.svg" alt="Apple logo" className="ml-10" />
+        <ul className="font-bold">
           {navLinks.map(({ label }) => (
             <li key={label}>
-              <a href={label}>{label}</a>
+              <a href='https://www.apple.com/in/store'>{label}</a>
             </li>
           ))}
         </ul>
