@@ -20,7 +20,8 @@ const StudioLights = () => {
             scale={10}
             rotation-y={Math.PI / 2}
           />
-        </group>
+        </group>npm audit fux
+        
       </Environment>
 
       <SpotLight
